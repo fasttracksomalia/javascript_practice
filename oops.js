@@ -1,31 +1,52 @@
 
 // var player = new Object();
-// var player = {
-//     age: 33
-// };
+// player.firstName = "Cristiano"
+// player.lastName = "Ronaldo"
+// player.age = 38
+// console.log(player)
 
-// let player1 = new Object()
-// player1.firstName= "Messi"
-// player1.lastName = "John"
-// player1.age = 33;
-// player1.children = ["Antonio", "Juliet"]
-// console.log(player1)
+//  var player = {
+//     firstName:"Cristiano",
+//     lastName : "Ronaldo",
+//     age : 38
+//  };
+//  console.log(player.lastName)
 
 
-let player2 = {
-    firstName : "Renaldo",
-    lastName : "Ferari",
-    age:99,
-    children: ["Lewis", "Carlos"]
-}
 
-player2.yearOfBirth = function() {
-    let now = new Date()
-    now.setFullYear(now.getFullYear() - player2.age)
-    console.log(now.getFullYear())
-}
+ 
 
-player2.yearOfBirth()
+
+
+
+
+let player1 = new Object()
+player1.firstName= "Lionel"
+player1.lastName = "Messi"
+player1.age = 33;
+player1.children = ["Antonio", "Juliet"]
+console.log(player1.children[1])
+
+
+
+
+
+ var player2 = {
+    firstName:"Cristiano",
+    lastName : "Ronaldo",
+    age : 38,
+    country: "Portugal",
+    hairColor : "black",
+
+    shoot : function ( ) {
+        let firstName = "Waryaa"
+        let country = "Somalia"
+       console.log(this.country + " shot the ball")
+    }   
+ };
+ console.log(player2.shoot())
+
+
 
 
 // function Fan(firstName, lastName, age, seatNumber) {
