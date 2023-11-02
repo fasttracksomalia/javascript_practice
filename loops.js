@@ -1,11 +1,11 @@
 
 
 
-// let students = ["Mohamed",
-//                 "Ali",
-//                 "Nor",
-//                 "Farhiya",
-//                 "Bile"]
+let students = ["Mohamed",
+                "Ali",
+                "Nor",
+                "Farhiya",
+                "Bile"]
 
 // // for (let counter = 0; counter < students.length; counter++) {
 // //     console.log( students[counter] )
@@ -65,10 +65,10 @@
 
 
 
-for (let index = 0; index < 20; index++) {
-    if(index == 4) {
-        return;
-    }
-   console.log(index)
+// for (let index = 0; index < 20; index++) {
+//     if(index == 4) {
+//         return;
+//     }
+//    console.log(index)
     
-}
+// }

@@ -1,15 +1,16 @@
 
 // var player = new Object();
-// var player = {
-//     age: 33
-// };
+// player.firstName = "Cristiano"
+// player.lastName = "Ronaldo"
+// player.age = 38
+// console.log(player)
 
-// let player1 = new Object()
-// player1.firstName= "Messi"
-// player1.lastName = "John"
-// player1.age = 33;
-// player1.children = ["Antonio", "Juliet"]
-// console.log(player1)
+//  var player = {
+//     firstName:"Cristiano",
+//     lastName : "Ronaldo",
+//     age : 38
+//  };
+//  console.log(player.lastName)
 
 
 // let player2 = {
