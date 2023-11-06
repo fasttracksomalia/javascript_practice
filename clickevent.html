@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Event Example</title>
+  </head>
+  <body>
+    <!-- <button
+      type="button"
+      onmousedown="changeToYellow()"
+      onmouseup="changeToGreen()"
+    > -->
+    <!-- <button
+      type="button"
+      onmouseover="changeToYellow()"
+      onmouseout="changeToGreen()"
+    > -->
+
+    <!-- <button
+      type="button"
+      onmouseover="changeToYellow()"
+      onmouseout="changeToGreen()"
+    > -->
+    <!-- Click Me
+    </button> -->
+
+    <!-- <input type="text" onfocus="changeToYellow()" onblur="changeToGreen()" /> -->
+    <label for="countrySelect">Select a country:</label>
+    <select id="countrySelect" onchange="showChosenCountry()">
+      <option value="Somalia">Somalia</option>
+      <option value="Kenya">Kenya</option>
+      <option value="Ethiopia">Ethiopia</option>
+      <option value="France">France</option>
+      <option value="China">China</option>
+    </select>
+    <p id="chosenCountryText"></p>
+    <script src="clickEvent.js"></script>
+  </body>
+</html>
