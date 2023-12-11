@@ -28,10 +28,23 @@
 
 // const result = sum(...numbers);
 // console.log(result); // Output: 6
-t 
+
 // Example: Spreading string characters into an array
 // const str = "Ahmed Dini";
 // console.log(typeof str)
 
 // const arrayOfCharacters = [...str];
 // console.log(typeofarrayOfCharacters); // Output: ['h', 'e', 'l', 'l', 'o']
+
+// Example 1: Using rest parameter in a function
+// function sum(p1, p2, ...rest) {
+//     console.log(rest)
+//     return p1 + p2;
+// }
+
+// console.log(sum(1, 2, 3, 4, 5)); // Output: 15
+
+
+
+let uniqueNumbersSet = new Set([1, 2, 3, 1, 2]);
+console.log(uniqueNumbersSet); // 
